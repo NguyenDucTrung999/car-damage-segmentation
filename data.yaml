@@ -1,0 +1,7 @@
+train: dataset/train/images # đường dẫn của tệp ảnh
+val: dataset/valid/images   
+test: dataset/test/images   
+
+nc: 5       # số class
+names: ['broken', 'dented' ,'glass', 'light', 'scratch'] # tên class
+
